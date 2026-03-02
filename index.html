@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Traffic Management System</h1>
+    </header>
+
+    <main>
+        <section id="controls">
+            <button onclick="toggleSignal('red')">Red Light</button>
+            <button onclick="toggleSignal('yellow')">Yellow Light</button>
+            <button onclick="toggleSignal('green')">Green Light</button>
+        </section>
+
+        <section id="status">
+            <p>Current Signal: <span id="current-signal">OFF</span></p>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
